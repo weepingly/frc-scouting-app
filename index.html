@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FRC Scouting Data</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="hero">
+      <div>
+        <h1>2068 scouting website</h1>
+        <p style= "text-align: center";>cool 2068 scouting website to showcase data in a neat format :D</p>
+      </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>submit match scouting data</h2>
+      <p>use this form to submit your match scouting data :p</p>
+      <iframe class="form-embed" src="https://docs.google.com/forms/d/e/1FAIpQLSclHkrKeqAEKmNWAM0eq7VHVjEpTyF0OQJu5PHCLmph0QeIjw/viewform?usp=dialog" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </section>
+
+    <section class="card">
+        <h2>team stats viewer</h2>
+        <p class="note">choose a team from the drop down below to see their statistics and stuff</p>
+      <div class="controls">
+        <select id="teamSelect">
+          <option value="">Loading teams...</option>
+        </select>
+      </div>
+            <button id="refreshButton" type="button">refresh data</button>
+      <div id="statusMessage" class="message"></div>
+      <div id="teamTableContainer"></div>
+    </section>
+
+    <section class="card">
+      <h2>Metal Jackets - Team 2068</h2>
+        <p>made by purno!</p>
+    </section>
+  </main>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
