@@ -205,7 +205,7 @@ function buildTeamInfoSection(teamName, teamRows) {
         <strong>Team Number:</strong> ${escapeHtml(teamName)}
       </div>
       <div class="stat-item">
-        <strong>Matches Played:</strong> ${matches.length > 0 ? matches.join(", ") : "N/A"}
+        <strong>Match Numbers Played:</strong> ${matches.length > 0 ? matches.join(", ") : "N/A"}
       </div>
       <div class="stat-item">
         <strong>Team Presence:</strong> ${presentStatus} (${presentCount} present, ${absentCount} absent)
